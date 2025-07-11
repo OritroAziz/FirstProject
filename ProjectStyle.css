@@ -1,5 +1,17 @@
 /* Note: Please use word wrap for a better and organized view */
 
+/* Section for Hover */
+ button:hover{animation: colorshift 2s infinite alternate;}
+ button{
+        background-color: #4E47FF;
+        transition: background-color 0.5s ease-in-out;
+ }
+ @keyframes colorshift{
+                        0%{background-color: #4E47FF;}
+                        50%{background-color: greenyellow;}
+                        100%{background-color: yellow;}
+ }
+/* End of section. */
 
 /* This section is for backgrounds */
 *{margin: 0;
